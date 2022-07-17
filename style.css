@@ -1,0 +1,158 @@
+.box1 {
+    display: flex;
+    cursor: pointer;
+}
+
+.child1 {
+    width: auto;
+    height: 10vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 2;
+    background-color: #F0223B;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.child1-2 {
+    width: 0.5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: #FA23A9;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.box2 {
+    display: flex;
+    cursor: pointer;
+}
+
+.box2-1 {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    cursor: pointer;
+}
+
+.child2-1 {
+    width: 80vw;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #8D0E96;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.child2-2,
+.child2-3 {
+    width: auto;
+    height: 20vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.child2-2 {
+    background-color: #14E3B5;
+}
+
+.child2-3 {
+    background-color: #15967A;
+}
+
+.box3 {
+    display: flex;
+    cursor: pointer;
+}
+
+.child3-1,
+.child3-2,
+.child3-3 {
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid black;
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.child3-1 {
+    background-color: #D72BE3;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.child3-2 {
+    background-color: #F34AFF;
+    align-items: flex-end;
+}
+
+.child3-3 {
+    background-color: #7BE32B;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.child1 :hover {
+    color: white;
+    transition: calc(0.5s);
+    transform: rotate(360deg);
+}
+
+.child1-2 :hover {
+    color: white;
+    transition: calc(0.5s);
+    transform: rotate(360deg);
+}
+
+.child2-1 :hover {
+    color: white;
+    transition: calc(0.5s);
+    transform: rotate(360deg);
+}
+
+.child2-2 :hover {
+    color: white;
+    transition: calc(0.5s);
+    transform: rotate(360deg);
+}
+
+.child2-3 :hover {
+    color: white;
+    transition: calc(0.5s);
+    transform: rotate(360deg);
+}
+
+.child3-1 :hover {
+    color: white;
+    transition: calc(0.5s);
+    transform: rotate(360deg);
+}
+
+.child3-2 :hover {
+    color: white;
+    transition: calc(0.5s);
+    transform: rotate(360deg);
+}
+
+.child3-3 :hover {
+    color: white;
+    transition: calc(0.5s);
+    transform: rotate(360deg);
+}
